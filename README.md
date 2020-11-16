@@ -14,13 +14,13 @@ To work with 3rd party libraries when making custom Comsol simulations with Java
 
 Checkout an example what this Maven project would look like in the TestMavenProject folder.
 
-General outline for setting up your ICDS-ACI environment:
-1.) Get proper JDK installed with Anaconda & add to $Path
-2.) Download & add Maven to your $Path
-3.) Add Comsol .jar files to Maven
-4.) Create Maven project and add SMILE dependencies
-5.) Load Comsol module
-6.) Write Comsol code and compile with Maven
-7.) Open .class like normal in Comsol
+**General outline for setting up your ICDS-ACI environment:**
+1. Get proper JDK installed with Anaconda & add to $Path
+2. Download & add Maven to your $Path
+3. Add Comsol .jar files to Maven
+4. Create Maven project and add SMILE dependencies
+5. Load Comsol module
+6. Write Comsol code and compile with Maven
+7. Open .class like normal in Comsol
 
 In depth instructions coming...
