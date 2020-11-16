@@ -1,0 +1,22 @@
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.api_1.0.0.jar -DgroupId=com.comsol.api -DartifactId=comsol_api -Dversion=1.0.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.client_1.0.0.jar -DgroupId=com.comsol.client -DartifactId=comsol_client -Dversion=1.0.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.clientapi_1.0.0.jar -DgroupId=com.comsol.clientapi -DartifactId=comsol_client_api -Dversion=1.0.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.communication_1.0.0.jar -DgroupId=com.comsol.communication -DartifactId=comsol_communication -Dversion=1.0.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.doc_1.0.0.jar -DgroupId=com.comsol.doc -DartifactId=comsol_doc -Dversion=1.0.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.nativebasicutil_1.0.0.jar -DgroupId=com.comsol.nativebasicutil -DartifactId=comsol_nativebasicutil -Dversion=1.0.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.nativejni_1.0.0.jar -DgroupId=com.comsol.nativejni -DartifactId=comsol_nativejni -Dversion=1.0.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.resources_1.0.0.jar -DgroupId=com.comsol.resources -DartifactId=comsol_resources -Dversion=1.0.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.security_1.0.0.jar -DgroupId=com.comsol.security -DartifactId=comsol_security -Dversion=1.0.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.systemutils_1.0.0.jar -DgroupId=com.comsol.systemutils -DartifactId=comsol_systemutils -Dversion=1.0.0 -Dpackaging=jar
+
+mvn install:install-file -Dfile=/opt/aci/sw/comsol/5.4/apiplugins/com.comsol.util_1.0.0.jar -DgroupId=com.comsol.util -DartifactId=comsol_util -Dversion=1.0.0 -Dpackaging=jar
+
