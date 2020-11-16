@@ -22,7 +22,7 @@ Checkout an example what this Maven project would look like in the TestMavenProj
 5. Create Maven project and add SMILE dependencies
 6. Compile and open .class like normal in Comsol
 
-**Get proper JDK installed with Anaconda & add to $Path**
+### Get proper JDK installed with Anaconda & add to $Path
 First thing we need to do is get JDK 11 in your workspace on the server, so if you have an account, ssh in so we can get started. 
 
 Simply enter these commands and we'll have Java ready to go for the project:
@@ -37,7 +37,7 @@ $ export PATH=$JAVA_HOME/bin:$PATH
 
 Keep in mind you will need to **enter the first, third, fourth, and fifth commands everytime you open up a terminal to compile Java code for this project.** There are some additional commands like this aswell, they will all be included lower in the readme.
 
-**Download & add Maven to your $Path**
+### Download & add Maven to your $Path
 Now we need to install Maven, a Java build automation tool which makes it possible for us to use SMILE and COMSOL dependencies together. I suggest make a directory for this and to store our Java projects for Comsol. Once you're inside that directory, download and unzip Maven in it with the following commands:
 
 ```
@@ -60,19 +60,19 @@ $ mvn -v
 
 You should see the proper version number and no errors pop up after that.
 
-**Add Comsol .jar files to Maven**
+### Add Comsol .jar files to Maven
 We now must manually add the Comsol jar files into Maven, for there is no online dependency for it we can directly reference for the API. All we have to do is simply enter the commands included in the maven_include_jar_cmds.txt file. The file is in this repo, just open it up and manually enter each command into your ssh session.
 
-**Load Comsol module**
+### Load Comsol module
 Simply enter this command:
 ```
 $ module load comsol
 ```
 
-**Create Maven project and add SMILE dependencies**
+### Create Maven project and add SMILE dependencies
 For this part you'll want to just download the included GPRtest folder to your server environment and run the demo. It is a Maven project setup exactly how we need for compiling other dependecies along side the Comsol API. Notice dependencies are added in the pom.xml file, where both the SMILE and COMSOL dependencies are included. When you are making your own projects, simply take this project and change out the java files for what you need.
 
-**Compile and open .class like normal in Comsol**
+### Compile and open .class like normal in Comsol
 Compile Maven projects with the following command:
 ```
 mvn compile
